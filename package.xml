@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>fast_rosbag_slice</name>
+  <version>1.0.0</version>
+  <description>fast rosbag time slicer</description>
+  <maintainer email="bernd.pfrommer@gmail.com">Bernd Pfrommer</maintainer>
+  <license>Apache2</license>
+
+  <buildtool_depend condition="$ROS_VERSION == 1">catkin</buildtool_depend>
+  <depend condition="$ROS_VERSION == 1">roscpp</depend>
+  <depend condition="$ROS_VERSION == 1">rosbag</depend>
+
+  <export>
+    <build_type condition="$ROS_VERSION == 1">catkin</build_type>
+  </export>
+
+</package>
